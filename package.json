@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-legaion",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "LEGAION asynchronous document verification for n8n",
   "license": "MIT",
   "author": {
@@ -10,7 +10,7 @@
   "homepage": "https://www.legaion.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jacekmiczek-oss/n8n-nodes-legaion.git"
+    "url": "git+https://github.com/jacekmiczek-oss/n8n-nodes-legaion.git"
   },
   "keywords": [
     "n8n-community-node-package"
