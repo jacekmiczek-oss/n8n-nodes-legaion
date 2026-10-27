@@ -18,7 +18,7 @@ The workflow sends selected text to LEGAION. n8n execution history may retain in
 
 ## Development
 
-`npm ci --ignore-scripts`, `npm run lint`, `npm run build`. There are no runtime dependencies. The package is MIT-licensed. Its source and package must be published and reviewed before it can be described as an n8n verified community node. Local build/test success is not n8n certification.
+`npm ci --ignore-scripts`, `npm run lint`, `npm run build`. There are no runtime dependencies. The package is MIT-licensed. The package is published on npm and approved by n8n as a verified community node. Local build/test success alone is not n8n certification.
 
 Support: support@legaion.com · [LEGAION](https://www.legaion.com/)
 
@@ -26,4 +26,4 @@ Support: support@legaion.com · [LEGAION](https://www.legaion.com/)
 
 Source repository: https://github.com/jacekmiczek-oss/n8n-nodes-legaion
 
-Configure npm Trusted Publishing for this repository and `.github/workflows/publish.yml`, using the `npm-publish` environment, before dispatching the workflow. The node is not yet published to npm or verified by n8n.
+The package is published to npm as `n8n-nodes-legaion` through the manually dispatched `.github/workflows/publish.yml` workflow (npm Trusted Publishing, `npm-publish` environment). In n8n Cloud it appears as a verified community node; enable verified community nodes in your instance settings if you do not see it.
