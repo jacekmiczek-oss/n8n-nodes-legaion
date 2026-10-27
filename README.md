@@ -14,7 +14,7 @@ An administrator creates an organisation API key in LEGAION Business Panel → A
 
 Connect Start → Wait 5 seconds → Get → branch on status. Repeat only while pending. Stop on failed. Route completed findings to a human reviewer. `coverage: complete` describes extraction completeness, not correctness of all claims. Preserve all verdicts, including unknown and unverified.
 
-The workflow sends selected text to LEGAION. n8n execution history may retain inputs and outputs under your instance settings. LEGAION's partner API stores temporary encrypted results for 24 hours and does not persist submitted input text. See the [API and data-handling documentation](https://rkryjteyfzgxisnmykek.supabase.co/functions/v1/partner-verification/docs).
+The workflow sends selected text to LEGAION. n8n execution history may retain inputs and outputs under your instance settings. LEGAION's partner API stores temporary encrypted results for 24 hours and does not persist submitted input text. See the [LEGAION n8n guide](https://www.legaion.com/dokumentacja/n8n) and the [API and data-handling documentation](https://rkryjteyfzgxisnmykek.supabase.co/functions/v1/partner-verification/docs).
 
 ## Development
 
